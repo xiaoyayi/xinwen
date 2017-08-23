@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item   android:title=""
+        android:id="@+id/touxiang"
+        android:icon="@drawable/default_user_dynamic"
+        app:showAsAction="ifRoom"
+        />
+    <item android:title="天气"
+        android:id="@+id/tianqi"
+        android:icon="@drawable/menu_r1_c1"
+        app:showAsAction="never"
+        />
+    <!--<item android:title="离线"-->
+        <!--android:id="@+id/lixian"-->
+        <!--android:icon="@drawable/menu_r3_c1"-->
+        <!--app:showAsAction="never"-->
+        <!--/>-->
+    <item android:title="夜间"
+        android:id="@+id/yejian"
+        android:icon="@drawable/menu_r5_c1"
+        app:showAsAction="never"
+        />
+    <item android:title="搜索"
+        android:id="@+id/sousuo"
+        android:icon="@drawable/menu_r7_c1"
+        app:showAsAction="never"
+        />
+    <item android:title="扫一扫"
+        android:id="@+id/saoyi"
+        android:icon="@drawable/menu_r9_c1"
+        app:showAsAction="never"
+        />
+    <item android:title="设置"
+        android:id="@+id/shezhi"
+        android:icon="@drawable/menu_r11_c1"
+        app:showAsAction="never"
+        />
+</menu>
